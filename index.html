@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signUpForm</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <img src="images/odin-lined.png">
+            <p>ODIN</p>
+        </div>
+        <p>photo by halie west on unsplash</p>
+    </div>
+    <div class="main-content">
+        <div class="form-container">
+            <form>
+                <legend>Let's do this!</legend>
+                <div class="form-inputs">
+                    <!-- Form groups -->
+                    <div class="input-group">
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" id="first-name" placeholder="Thor">
+                    </div>
+                    <div class="input-group">
+                        <label for="last-name">LAST NAME</label>
+                        <input type="text" id="last-name" placeholder="Odinson">
+                    </div>
+                    <div class="input-group">
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email">
+                    </div>
+                    <div class="input-group">
+                        <label for="number">PHONE NUMBER</label>
+                        <input type="number" id="number">
+                    </div>
+                    <div class="input-group">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id="password" minlength="8" maxlength="20">
+                    </div>
+                    <div class="input-group">
+                        <label for="confirm-password">CONFIRM PASSWORD</label>
+                        <input type="password" id="confirm-password">
+                    </div>
+                </div>
+                <button type="submit" id="create-button">CREATE ACCOUNT</button>
+            </form>
+        </div>
+        <p class="login-prompt">Already have an account? <span>Log In</span></p>
+    </div>
+</body>
+</html>
